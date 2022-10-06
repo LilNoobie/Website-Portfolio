@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+*{
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: black;
+}
+
+
+
+#type {
+  color: white;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+  .typing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+    #feature-text {
+      margin-left: 30px;
+    }
+
+    .input-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 100px;
+      background-color: white;
+      margin-left: 8px;
+      animation: blink .6s linear infinite alternate;
+    }
+  
+  
+  @keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+
+#NFTCollector {
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+#nfts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 100;
+    position: relative;
+    top: -80%;
+    background-color: transparent;
+}
+
+#photoshoot {
+    visibility: hidden;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 10;
+    height: 100hw;
+    background-color: transparent;
+}
+
+#strip1, 
+#strip2,
+#strip3 {
+   display: flex;
+   flex-direction: column;
+}
+
+.photo {
+    width: 350px;
+}
+
+ #collector,
+ #collection {
+     border-bottom: 2px solid white;
+     color: gray;
+ }
+
+ #collector:hover,
+ #collection:hover {
+     color: red;
+     border-bottom: none
+ }
+#collection-text {
+    align-items: center;
+}
+
+ #hidden-images {
+     visibility: hidden;
+     display: flex;
+     background-color: transparent;
+ }
+
+ #moonbird {
+     height: 150px;
+     background-color: transparent;
+     margin-top: auto;
+     position: relative;
+     right: 30px;
+ }
+
+ #coolcat {
+     height: 200px;
+     background-color: transparent;
+     position: relative;
+     right: 115px;
+     margin-top: auto;
+ }
+
+ #coolcat2 {
+    height: 180px;
+    background-color: transparent;
+    position: relative;
+    right: 190px;
+    margin-top: auto;
+ }
+
+ #coolpet {
+    height: 50px;
+    background-color: transparent;
+    position: relative;
+    right: 370px;
+    margin-top: auto;
+    z-index: 200;
+ }
+
+ #deadfella {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    right: 350px;
+    margin-top: auto;
+ }
+
+ #doodle {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    right: -350px;
+    margin-top: auto;
+ }
+
+ #doodle2 {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    right: -200px;
+    margin-top: auto;
+    z-index: 100;
+ }
+
+ #mutant {
+    height: 300px;
+    background-color: transparent;
+    position: relative;
+    right: -75px;
+ }
+
+ #tubby {
+    height: 150px;
+    background-color: transparent;
+    position: relative;
+    right: -250px;
+    margin-top: auto;
+    z-index: 150;
+ }
+
+ #swickie {
+     background-color: transparent;
+     font-size: 20px;
+     position: relative;
+     bottom: 795px;
+     right: -300px;
+     color: darkgray;
+     visibility: hidden;
+ }
+
+ a {
+     text-decoration: underline;
+     color: lightgray;
+ }
+
+ 
