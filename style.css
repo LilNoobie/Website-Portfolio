@@ -189,6 +189,7 @@
      right: -300px;
      color: darkgray;
      visibility: hidden;
+     z-index: 150;
  }
 
  a {
