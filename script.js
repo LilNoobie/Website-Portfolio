@@ -12,6 +12,20 @@ function typeWriter(){
 
 typeWriter();
 
+//Smooth Scrolling
+var sectionOne = document.getElementById('type');
+var sectionTwo = document.getElementById('NFTCollector');
+var lastScrollTop = 0;
+window.onscroll = function(){
+   var st = window.pageYOffset || document.documentElement.scrollTop; 
+   if (st > lastScrollTop){
+      sectionOne.scrollIntoView({behavior: "smooth"});
+   } else {
+      sectionTwo.scrollIntoView({behavior: "smooth"});
+   }
+   lastScrollTop = st <= 0 ? 0 : st; 
+} 
+
 //Show Collector Part
 const collectorTxt = document.getElementById('collector');
 const collectorHover = document.getElementById('hidden-images');
